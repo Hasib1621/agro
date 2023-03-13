@@ -44,6 +44,8 @@ class _HomeState extends State<Home> {
       body: SingleChildScrollView(
         child: Container(
           color: Colors.black,
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
           child: Column(
             children: [
               Image.asset(
